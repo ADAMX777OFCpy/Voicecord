@@ -17,7 +17,7 @@ class Music(commands.Cog):
     async def leave(self, ctx):
         await ctx.voice_client.disconnect()
 
-bot = commands.Bot(command_prefix=("&"))
+bot = commands.Bot(command_prefix=("="))
 
 @bot.event
 async def on_ready():
